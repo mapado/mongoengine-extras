@@ -1,8 +1,7 @@
 import re
 from mongoengine.base import ValidationError
 from mongoengine.fields import StringField
-
-from mongoengine_extras.utils import slugify
+from slugify import slugify
 
 
 class SlugField(StringField):
